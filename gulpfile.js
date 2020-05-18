@@ -26,12 +26,35 @@ function bSync() {
     browserSync.init({
         // watch: true,
         port: 3030,
-        startPath: './www/',
+        startPath: './home/program/',
         server: {
             baseDir: './dist'
         }
     });
 };
+
+function bSyncLand() {
+    browserSync.init({
+        // watch: true,
+        port: 3030,
+        startPath: './www/landing/hoteloperation/index.html',
+        server: {
+            baseDir: './dist'
+        }
+    });
+};
+
+function bSyncLandM() {
+    browserSync.init({
+        // watch: true,
+        port: 3030,
+        startPath: './m/landing/hoteloperation/index.html',
+        server: {
+            baseDir: './dist'
+        }
+    });
+};
+
 
 function bSyncTest() {
     browserSync.init({
@@ -269,3 +292,6 @@ exports.serve = parallel(series(parallel(template), scss, css, js, img, etc, bSy
 exports.build = parallel(series(parallel(template), scss, css, js, img, etc, bSync), watching);
 exports.test = series(parallel(template), scss, css, js, img, etc, copyTest, testPathServer, bSyncTest);
 exports.default = parallel(bSync, watching);
+
+exports.land = parallel(series(parallel(template), scss, css, js, img, etc, bSyncLand), watching);
+exports.landM = parallel(series(parallel(template), scss, css, js, img, etc, bSyncLandM), watching);

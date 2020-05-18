@@ -371,7 +371,7 @@ include_once ("../common/top.php");
                             <div class="info">
                                 <dl>
                                     <dt>· 객실 :</dt>
-                                    <dd>340객실 (21㎡,24㎡,32.7㎡,50㎡)</dd>
+                                    <dd>340개 (21㎡,24㎡,32.7㎡,50㎡)</dd>
                                 </dl>
                                 <dl>
                                     <dt>· 시설 :</dt>
@@ -387,13 +387,13 @@ include_once ("../common/top.php");
                         </li>
                         <li class="item">
                             <figure class="picture">
-                                <a href="http://www.seabay.co.kr" target="_blank" rel="noopener noreferrer"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record_item_rgb.jpg" alt="에어스카이호텔"></a>
-                                <figcaption><em>에어스카이호텔</em><span class="sm">운영 : 2020. 05. 01 ~ 운영예정</span></figcaption>
+                                <a href="http://www.hotelairsky.co.kr" target="_blank" rel="noopener noreferrer"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record_item_rgb.jpg" alt="에어스카이호텔"></a>
+                                <figcaption><em>에어스카이호텔</em><span class="sm">운영 : 2020. 07. 01 ~ 현재</span></figcaption>
                             </figure>
                             <div class="info">
                                 <dl>
                                     <dt>· 객실 :</dt>
-                                    <dd>457객실</dd>
+                                    <dd>457개 (22.8㎡, 43.3㎡)</dd>
                                 </dl>
                                 <dl>
                                     <dt>· 시설 :</dt>
@@ -411,13 +411,37 @@ include_once ("../common/top.php");
                     <ul class="cf item-list count-3">
                         <li class="item">
                             <figure class="picture">
+                                <!-- <a href="#" target="_blank" rel="noopener noreferrer"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record_item_ramada_js.png" alt="라마다정선"></a> -->
+                                <a href="#none" rel="noopener noreferrer"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record_item_ramada_js.png" alt="라마다정선"></a>
+                                <figcaption><em>라마다앙코르정선호텔</em><span class="sm">운영 :  2020. 08. 운영예정</span></figcaption>
+                            </figure>
+                            <div class="info">
+                                <dl>
+                                    <dt>· 객실 :</dt>
+                                    <dd>467개</dd>
+                                </dl>
+                                <dl>
+                                    <dt>· 규모 :</dt>
+                                    <dd>연회장, 비즈니스룸, 야외가든,<br>레스토랑 등</dd>
+                                </dl>
+                                <dl>
+                                    <dt>· 강원도 정선군 사북읍 지장천로 583</dt>
+                                </dl>
+                                <dl>
+                                    <!-- <dt>· 홈페이지: <a href="#" target="_blank" rel="noopener noreferrer">준비중 <span class="custom-icon-winpop"></span></a></dt> -->
+                                    <dt>· 홈페이지: <a href="#none" rel="noopener noreferrer">준비중 <span class="custom-icon-winpop"></span></a></dt>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure class="picture">
                                 <a href="http://www.ramadapt.co.kr" target="_blank" rel="noopener noreferrer"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record_item_rmd.jpg" alt="라마다평택"></a>
                                 <figcaption><em>라마다앙코르호텔</em><span class="sm">운영 : 2018. 11 ~ 2020. 03. 31</span></figcaption>
                             </figure>
                             <div class="info">
                                 <dl>
                                     <dt>· 객실 :</dt>
-                                    <dd>302개 객실 (23㎡,24㎡,46㎡)</dd>
+                                    <dd>302개 (23㎡,24㎡,46㎡)</dd>
                                 </dl>
                                 <dl>
                                     <dt>· 규모 :</dt>
@@ -439,7 +463,7 @@ include_once ("../common/top.php");
                             <div class="info">
                                 <dl>
                                     <dt>· 객실 :</dt>
-                                    <dd>200객실 (89㎡,135㎡)</dd>
+                                    <dd>200개 (89㎡,135㎡)</dd>
                                 </dl>
                                 <dl>
                                     <dt>· 시설 :</dt>

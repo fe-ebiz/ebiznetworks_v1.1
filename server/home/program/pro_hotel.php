@@ -154,7 +154,7 @@
 										<div class="card-text">
 											<p class="term"><span class="dot">▶</span> 운영기간: 2019. 07 ~ 현재</p>
 											<p class="text">
-												&middot; 객실: 340 객실 (21㎡, 24㎡, 32.7㎡, 50㎡)<br>
+												&middot; 객실: 340개 (21㎡, 24㎡, 32.7㎡, 50㎡)<br>
 												&middot; 시설: 레스토랑, 바, 연회장, 비즈니스코너, 풀장 등<br>
 												&middot; 소재: 강원도 강릉시 주문진읍 주문로 59<br>
 											</p>
@@ -170,32 +170,63 @@
                                             <img src="<?=base_img?>/program/img_rgb.jpg" alt="알지비스카이호텔">
                                         </figure>
                                         <div class="card-text">
-                                            <span class="state-badge img">예정</span>
+                                            <span class="state-badge img">운영중</span>
                                             <div class="text-wrapper">
-                                                <p class="title">알지비스카이호텔</p>
+                                                <p class="title">에어스카이호텔</p>
                                                 <p class="text">457객실 &middot; 인천광역시 중구 중산동</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="hover">
                                         <figure class="card-picture">
-                                            <!-- <img src="<?=base_img?>/program/logo_ramadapt.png" alt="알지비스카이호텔" class="logo"> -->
+                                            <img src="<?=base_img?>/program/logo_airsky.png" alt="로고" class="logo">
                                         </figure>
-                                        <div class="card-title">알지비스카이호텔</div>
+                                        <div class="card-title">에어스카이호텔</div>
                                         <div class="card-text">
-                                            <p class="term"><span class="dot">▶</span> 운영기간: 2020. 05. 01 ~ 운영예정</p>
+                                            <p class="term"><span class="dot">▶</span> 운영기간: 2020. 07. 01 ~ 현재</p>
                                             <p class="text">
-                                                &middot; 객실: 457개 객실<br>
+                                                &middot; 객실: 457개 (22.8㎡, 43.3㎡)<br>
                                                 &middot; 시설: 연회장, 비즈니스룸, 레스토랑, 바/라운지 등<br>
                                                 &middot; 소재: 인천광역시 중구 중산동 1952-4<br>
                                             </p>
                                         </div>
                                         <div class="card-actions">
-                                            <!-- <a href="http://ramadapt.co.kr/" target="_blank" rel="noopener noreferrer" class="home-btn">홈페이지</a> -->
-                                            <a href="javascript:;" class="home-btn">준비중</a>
+                                            <a href="http://hotelairsky.co.kr/" target="_blank" rel="noopener noreferrer" class="home-btn">홈페이지</a>
                                         </div>
                                     </div>
-                                </li>
+								</li>
+								<li class="card rgb-card">
+									<div class="default cf">
+										<figure class="card-picture">
+											<img src="<?=base_img?>/program/img_ramada_js.jpg" alt="라마다 정선">
+										</figure>
+										<div class="card-text">
+											<span class="state-badge end">운영예정</span>
+											<div class="text-wrapper">
+												<p class="title">라마다앙코르정선호텔</p>
+												<p class="text">467객실 · 강원도 정선군 사북읍 지장천로</p>
+											</div>
+										</div>
+									</div>
+									<div class="hover">
+										<figure class="card-picture">
+											<!-- <img src="http://img.ebiznetworks.co.kr/program/logo_ramadapt.png" alt="알지비스카이호텔" class="logo"> -->
+										</figure>
+										<div class="card-title">라마다앙코르정선호텔</div>
+										<div class="card-text">
+											<p class="term"><span class="dot">▶</span> 운영기간:  2020. 08. 운영예정</p>
+											<p class="text">
+												· 객실: 467개<br>
+												· 시설: 연회장, 비즈니스룸, 야외가든, 레스토랑 등<br>
+												· 소재: 강원도 정선군 사북읍 지장천로 583<br>
+											</p>
+										</div>
+										<div class="card-actions">
+											<!-- <a href="http://ramadapt.co.kr/" target="_blank" rel="noopener noreferrer" class="home-btn">홈페이지</a> -->
+											<a href="javascript:;" class="home-btn">준비중</a>
+										</div>
+									</div>
+								</li>
 								<li class="card ramadapt-card">
 									<div class="default cf">
 										<figure class="card-picture">
@@ -217,7 +248,7 @@
 										<div class="card-text">
                                             <p class="term"><span class="dot">▶</span> 운영기간: 2018. 11 ~ 2020. 03. 31</p>
 											<p class="text">
-												&middot; 객실: 302개 객실 (23㎡, 24㎡, 46㎡)<br>
+												&middot; 객실: 302개 (23㎡, 24㎡, 46㎡)<br>
 												&middot; 시설: 레스토랑, 비즈니스룸, 휘트니스, 야외테라스,<br>
 												<span class="space"></span>세탁실 등<br>
 												&middot; 소재: 경기도 평택시 포승읍 평택항로 184번길<br>
@@ -249,7 +280,7 @@
 										<div class="card-text">
 											<p class="term"><span class="dot">▶</span> 운영기간: 2018. 01 ~ 2019.07</p>
 											<p class="text">
-												&middot; 객실: 200 객실 (89㎡, 135㎡)<br>
+												&middot; 객실: 200개 (89㎡, 135㎡)<br>
 												&middot; 시설: 연회장, 비즈니스룸, 한식당, 대식당,<br>
 												<span class="space"></span>바베큐장 노래방, 편의점, 오락실 등<br>
 												&middot; 소재: 충청남도 아산시 도고면 기곡로62번길 6-8<br>
