@@ -702,6 +702,20 @@
                     }
                 }
             }
+            .record-txt-box{
+                margin-top: 100px;
+                padding-bottom: 40px;
+                text-align: center;
+                .p-txt{
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    // letter-spacing: -0.5px;
+                    .span-blue{
+                        color: #438fed;
+                    }
+                }
+            }
         }
 
         .inquiry-wrapper {
@@ -809,3 +823,134 @@
     }
 
 }
+
+
+
+//버튼박스
+.side-btn-box{
+    display: none;
+    box-sizing: border-box;
+    z-index: 80;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    width: 170px;
+    margin: 0 50%;
+    transform: translateX(620px) translateY(320px);
+    text-align: center;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    button{
+        border: none;
+        outline: 0;
+    }
+    .btn-go-top{
+
+    }
+}
+
+//랜딩 사이드배너
+.land-side-banner{
+    display: none;
+    position: fixed;
+    width: 1420px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 50%;
+    // transform: translateX(620px);
+    transform: translateX(620px) translateY(-50%);
+    z-index: 50;
+    *{
+        box-sizing: border-box;
+    }
+    .banner-top{
+        width: 100%;
+        img{
+            // width: 170px;
+            // height: 359px;
+            // max-width: none;
+            
+        }
+    }
+
+    .banner-bottom{
+        width: 150px;
+        background-color: #4fa9f8;
+        margin-top: 11px;
+        padding-top: 16px;
+        padding-bottom: 12px;
+        border-radius: 10px;
+        .title-box{
+            text-align: center;
+            .sub-title{
+                margin-top: 6px;
+            }
+        }
+
+        .input-box{
+            margin-top: 12px;
+            display: block;
+            width: 100%;
+            position: relative;
+            padding: 0 10px;
+            
+            input{
+                display: block;
+                outline: none;
+                position: relative;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 28px;
+                border-radius: 4px;
+                border: none;
+                padding-left: 10px;
+                color: #888;
+                font-family: 'Noto Sans KR', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.8px;
+                &:focus::placeholder{
+                    color: transparent;
+                }
+            }
+            .in-name{
+                margin-bottom: 3px;
+            }
+
+            .btn-check{
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                margin: 0;
+                padding: 0;
+                margin-top: 7px;
+                outline: none;
+                
+            }
+        }
+
+    }
+}
+
+
+
+/*안보이게 제어*/
+.inquiry-text{
+    .card-list{
+        position: relative;
+        .card:nth-of-type(1){
+            display: none;
+        }
+        .card:nth-of-type(2){
+            margin-left: 0 !important;
+            width: calc((100% -20px)) !important;
+            padding: 20px 260px !important;
+        }
+    }
+}
+

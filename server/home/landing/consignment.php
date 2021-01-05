@@ -478,7 +478,17 @@ include_once ("../common/top.php");
                             </div>
                         </li>
                     </ul>
-				</div>
+                </div>
+                <div class="record-txt-box">
+                <p class="p-txt">
+                    <span>2020년 08월 현재, </span>
+                    <br>
+                    <span class="span-blue">
+                        이외 4개 호텔과 위탁운영에 따른 구체적 협의와<br>
+                        운영 시기를 조율하고 있습니다.
+                    </span>
+                </p>
+            </div>
 			</div>
             <div class="record-content group">
                 <div class="comm-title record-title">

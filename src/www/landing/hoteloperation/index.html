@@ -475,8 +475,19 @@
                         </div>
                     </li>
                 </ul>
+                <div class="record-txt-box">
+                    <p class="p-txt">
+                        <span>2020년 08월 현재, </span>
+                        <br>
+                        <span class="span-blue">
+                            이외 4개 호텔과 위탁운영에 따른 구체적 협의와<br>
+                            운영 시기를 조율하고 있습니다.
+                        </span>
+                    </p>
+                </div>
             </div>
         </div>
+        
         <div class="record-content group">
             <div class="comm-title record-title">
                 <h1 class="title"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/record02_title.png" alt="호텔운영통합서비스"></h1>
@@ -619,5 +630,63 @@
     </div>
 </section>
 <!-- /.sec.record-sec -->
+
+<!--버튼박스-->
+<div class="side-btn-box">
+    <button type="button" class="btn-go-top">
+        <img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/btn_go_top.jpg" alt="배너_탑">
+    </button>
+</div>
+<!--///버튼박스-->
+
+<!--배너부분 추가-->
+<div class="land-side-banner">
+    <div class="banner-top">
+        <img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/side_banner_top.png" alt="배너_탑">
+    </div>
+    <!-- <div class="banner-bottom">
+        <div class="title-box">
+            <div class="title"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/side_banner_bottom_title.png" alt="배너_타이틀"></div>
+            <div class="sub-title"><img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/side_banner_bottom_subtitle.png" alt="배너_서브타이틀"></div>
+        </div>
+        <form class="input-box">
+            <input type="text" class="in-name" placeholder="이름">
+            <input type="text" class="in-tell" placeholder="전화번호">
+            <button type="button" class="btn-check">
+                <img src="http://img.ebiznetworks.co.kr/landing/hoteloperation/side_banner_btn_check.png" alt="배너_서브타이틀">
+            </button>
+        </form>
+        
+    </div> -->
+</div>
+<!--///
+    배너부분 추가-->
+
+<!--스크립트 추가-->
+<script>
+    $(document).ready(function(){
+        sideBannerSet();
+        $(document).on("scroll",function(){
+            sideBannerSet();
+        });
+
+        $(".side-btn-box .btn-go-top").on("click",function(){
+            $(window).scrollTop(0);
+        });
+    });
+
+    sideBannerSet = function(){
+        let scrollPos = $(window).scrollTop();
+        if(scrollPos > 700){
+            $(".land-side-banner").show();
+            $(".side-btn-box").show();
+        }
+        else{
+            $(".land-side-banner").hide();
+            $(".side-btn-box").hide();
+        }
+    };
+</script>
+<!--//스크립트 추가-->
 
 @@include('src/www/landing/hoteloperation/inc/_bottom.html')

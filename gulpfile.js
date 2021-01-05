@@ -26,7 +26,7 @@ function bSync() {
     browserSync.init({
         // watch: true,
         port: 3030,
-        startPath: './home/program/',
+        startPath: './home/program/index_shopping.html',
         server: {
             baseDir: './dist'
         }
@@ -214,6 +214,7 @@ function watching(cb) {
     // watch([config.template.src_m], templateM);
     // watch([config.template.parts_m], templateMAll);
     watch(config.sass.src, scss);
+    watch(config.css.src, css)
     watch(config.js.src, js);
     watch(config.img.src, img);
     watch(config.etc.src, etc);
